@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2020",
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    
+    /* Playwright/Testing Specific */
+    "types": [
+      "node",
+      "@playwright/test"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
